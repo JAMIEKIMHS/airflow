@@ -2,7 +2,7 @@ from airflow import DAG
 import pendulum
 import datetime
 from airflow.operators.python import PythonOperator
-from common.common_func import register
+from common.common_func import regist
 with DAG(
     dag_id="dags_python_with_op_args",
     schedule="30 6 * * *",
